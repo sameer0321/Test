@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Root */
+
+:root {
+    --fs-xl: 82px;
+    --fs-large: 62px;
+    --fs-md: 24px;
+    --fs-small: 20px;
+    --fs-very-small: 17px;
+}
+
+/* Classes For Root */
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-large {
+    font-size: var(--fs-large);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-small {
+    font-size: var(--fs-small);
+}
+
+.fs-very-small {
+    font-size: var(--fs-very-small);
+}
+
+
+
+.ff_Poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.ff_EB_Garamond {
+    font-family: "EB Garamond", serif;
+}
+
+.ff_Bebas-Neue {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.bg-111010 {
+    background-color: #111010;
+}
+
+.mw_826px {
+    max-width: 826px;
+}
+
+.mw_586px {
+    max-width: 586px;
+}
+
+.mw_237px {
+    max-width: 237px;
+}
+
+.pt_60px {
+    padding-top: 60px;
+}
+
+.pt_32px {
+    padding-top: 32px;
+}
+
+.book_free_button {
+    border: 3px solid #DDDDDD;
+    padding: 25px 27.25px;
+    display: inline-block;
+}
+
+.pt_30px {
+    padding-top: 30px;
+}
+
+.pl_22px {
+    padding-left: 22px;
+}
+
+.slick-slide {
+    margin: 0 15px;
+    /* Adjust as needed */
+}
+
+
+.content-card {
+    background-color: #00000066;
+    max-width: 384px;
+    height: 614px;
+}
+
+.pt_120px {
+    padding-top: 120px;
+}
+
+.bottom-27 {
+    bottom: 27%;
+}
+
+.bottom-green-line {
+    max-width: 146px;
+    width: 100%;
+    background-color: #C4FF61;
+    padding-bottom: 5px;
+
+}
+
+.bottom-line-with-green-line {
+    border-bottom: 1px solid #FFFFFF;
+
+}
+
+.pt_200px {
+    padding-top: 200px;
+}
+
+.slider .slick-slide.slick-center img {
+    height: 100%;
+    max-height: 734px;
+    width: 504px !important;
+    display: flex !important;
+    justify-content: center;
+}
+
+.slider div:has(+ .slick-center) img {
+    height: 614px;
+}
+
+.slider .slick-center+div img {
+    height: 614px;
+}
+
+.slider .slick-slide img {
+    height: 394px;
+    object-fit: cover;
+}
+
+.slick-track {
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+.slick-dots li button:before {
+    content: unset !important;
+}
+
+.slick-dots li {
+    width: 10px !important;
+    height: 10px !important;
+    background: transparent !important;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.slick-dots .slick-active {
+    background: #C4FF61 !important;
+    border: 2px solid transparent;
+    width: 40px !important;
+    border-radius: 10px !important;
+}
+
+.slick-dots {
+    bottom: -13% !important;
+}
+
+.content-card {
+    background-color: #00000066;
+    max-width: 384px;
+    height: 614px;
+}
+
+/* edit */
+.bg-img {
+    background-image: url("/assets/images/img.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 430px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.inner-text {
+    border: 5px solid #FFFFFF;
+    background: #00000066;
+    max-width: 362px;
+    min-height: 554px;
+    width: 100%;
+}
+
+.inner-img {
+    max-width: 119px;
+    height: 109px;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.slick-list .slick-current .inner-text {
+    border: 5px solid #C4FF61;
+}
+
+.prev {
+    bottom: -11% !important;
+    left: 40%;
+}
+
+.next {
+    bottom: -11% !important;
+    right: 40%;
+}
+
+.pb_200px {
+    padding-bottom: 200px;
+}
+
+.z-20 {
+    z-index: 20 !important;
+}
+
+.elipse {
+    position: absolute;
+    top: -24%;
+}
+
+.mobileView {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    position: fixed;
+    top: 0;
+    right: -45%;
+    transition: all 300ms linear;
+    height: 100vh;
+    z-index: 10;
+}
+
+.arrow-1 {
+    width: 40px !important;
+    right: 0 !important;
+    transform: rotate(45deg);
+}
+
+.arrow-2 {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -13px;
+}
+
+.show {
+    right: 0;
+}
+
+label {
+    position: relative;
+    z-index: 30;
+}
+
+label span.menu-btn-line-1 {
+    width: 26px;
+    height: 3px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-bottom: 10px;
+    position: relative;
+    right: -13px;
+    z-index: 10;
+    transition: all 300ms linear;
+}
+
+label span.menu-btn-line-2 {
+    width: 40px;
+    height: 3px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    transition: all 300ms linear;
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-xl: 51px;
+        --fs-large: 62px;
+        --fs-md: 24px;
+        --fs-small: 12px;
+        --fs-very-small: 17px;
+    }
+
+    .pt_200px {
+        padding-top: 70px;
+    }
+
+    .pb_200px {
+        padding-bottom: 100px;
+    }
+
+    .prev {
+        bottom: -14% !important;
+        left: 30%;
+    }
+
+    .next {
+        bottom: -14% !important;
+        right: 30%;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-xl: 31px;
+        --fs-large: 62px;
+        --fs-md: 24px;
+        --fs-small: 12px;
+        --fs-very-small: 17px;
+    }
+
+    .book_free_button {
+        border: 3px solid #DDDDDD;
+        padding: 10px 12.25px;
+        display: inline-block;
+    }
+
+    .pl_22px {
+        padding-left: 10px;
+    }
+
+    .pt_200px {
+        padding-top: 50px;
+    }
+
+    .slider .slick-slide.slick-center img {
+        height: 100%;
+        max-height: 734px;
+        width: 308px !important;
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .slider div:has(+ .slick-center) img {
+        height: 350px;
+    }
+
+    .slider .slick-center+div img {
+        height: 350px;
+    }
+
+    .prev {
+        bottom: 43% !important;
+        left: 20%;
+    }
+
+    .next {
+        bottom: 43% !important;
+        right: 20%;
+    }
+
+    .pb_200px {
+        padding-bottom: 71px;
+    }
+
+    .mobileView {
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        transition: all 300ms linear;
+        height: 100vh;
+        z-index: 10;
+    }
+
+    .show {
+        right: 0 !important;
+    }
+}
