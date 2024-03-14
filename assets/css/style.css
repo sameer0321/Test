@@ -242,13 +242,13 @@
 .mobileView {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: white;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 25%;
     position: fixed;
     top: 0;
-    right: -45%;
+    right: -25%;
     transition: all 300ms linear;
     height: 100vh;
     z-index: 10;
@@ -258,12 +258,14 @@
     width: 40px !important;
     right: 0 !important;
     transform: rotate(45deg);
+    background-color: black !important;
 }
 
 .arrow-2 {
     transform: rotate(-45deg);
     position: relative;
     top: -13px;
+    background-color: black !important;
 }
 
 .show {
@@ -387,7 +389,7 @@ label span.menu-btn-line-2 {
     .mobileView {
         display: flex;
         flex-direction: column;
-        background-color: gray;
+        background-color: white;
         justify-content: center;
         align-items: center;
         width: 100%;

@@ -16,8 +16,8 @@ navLinks.forEach((links) => {
     links.addEventListener("click", function () {
         navBar.classList.remove("show");
         body.classList.remove("overflow-hidden");
-        span1.classList.remove("arrow1");
-        span2.classList.remove("arrow2");
+        span1.classList.remove("arrow-1");
+        span2.classList.remove("arrow-2");
     });
 })
 
