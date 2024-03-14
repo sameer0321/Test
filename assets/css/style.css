@@ -272,6 +272,12 @@
     right: 0;
 }
 
+.neon-text {
+    -webkit-text-stroke: 1px white;
+    /* -webkit-text */
+    -webkit-text-fill-color: transparent;
+}
+
 label {
     position: relative;
     z-index: 30;
@@ -389,7 +395,7 @@ label span.menu-btn-line-2 {
     .mobileView {
         display: flex;
         flex-direction: column;
-        background-color: white;
+        background-color: WHITE;
         justify-content: center;
         align-items: center;
         width: 100%;
